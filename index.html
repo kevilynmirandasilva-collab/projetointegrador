@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Descarte Correto de E-Lixo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2e7d32;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .navbar .logo {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+            height: 45vh;
+            min-height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+        }
+
+        .card h2 {
+            color: #2e7d32;
+            margin-bottom: 1.2rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Grid de Canais de Descarte */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .grid-item-content {
+            padding: 1.2rem;
+        }
+
+        .grid-item h3 {
+            color: #1b5e20;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .grid-item p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* Lista O que Descartar */
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.2rem;
+            margin-top: 1.5rem;
+        }
+
+        .item-card {
+            background: #e8f5e9;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            border-left: 4px solid #2e7d32;
+        }
+
+        .item-card img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 0.8rem;
+        }
+
+        .item-card h4 {
+            color: #2e7d32;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #1b5e20;
+            color: #fff;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">♻️ Descarte Correto de E-Lixo</div>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Como Descartar seu Lixo Eletrônico</h1>
+            <p>Guia prático para destinação responsável de eletrônicos, pilhas e acessórios.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        
+        <!-- Formas de Descarte -->
+        <section class="card">
+            <h2>Formas de Descarte Correto</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=500&q=80" alt="Pontos de Entrega Voluntária">
+                    <div class="grid-item-content">
+                        <h3>Pontos de Entrega (PEV)</h3>
+                        <p>Locais como shoppings e supermercados mantêm coletores para pilhas, baterias e pequenos eletrônicos.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=500&q=80" alt="Logística Reversa">
+                    <div class="grid-item-content">
+                        <h3>Logística Reversa</h3>
+                        <p>Fabricantes e operadoras recebem de volta aparelhos e equipamentos antigos das suas marcas.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=500&q=80" alt="Cooperativas de Reciclagem">
+                    <div class="grid-item-content">
+                        <h3>Cooperativas</h3>
+                        <p>Associações de catadores e entidades de reciclagem locais recolhem e tratam esses materiais.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=500&q=80" alt="Reutilização e Doação">
+                    <div class="grid-item-content">
+                        <h3>Reutilização</h3>
+                        <p>Aparelhos em bom estado podem ser doados ou consertados antes do descarte definitivo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- O que pode ser descartado -->
+        <section class="card">
+            <h2>O que pode ser descartado?</h2>
+            <div class="items-grid">
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80" alt="Smartphones e portáteis">
+                    <h4>Dispositivos Portáteis</h4>
+                    <p>Smartphones, tablets e acessórios.</p>
+                </div>
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=400&q=80" alt="Informática e hardware">
+                    <h4>Informática</h4>
+                    <p>Computadores, notebooks e hardware.</p>
+                </div>
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=400&q=80" alt="Pilhas e Baterias">
+                    <h4>Energia</h4>
+                    <p>Pilhas, baterias e carregadores.</p>
+                </div>
+                <div class="item-card">
+                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=80" alt="Eletrodomésticos">
+                    <h4>Eletrodomésticos</h4>
+                    <p>Equipamentos domésticos em geral.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Guia de Descarte Correto de E-Lixo</p>
+    </footer>
+
+</body>
+</html>
